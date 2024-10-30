@@ -31,3 +31,4 @@ class MovieGenre(Base):
     movie = relationship(Movie, back_populates='genres')
     genre = relationship(Genre, back_populates='movies')
 
+
